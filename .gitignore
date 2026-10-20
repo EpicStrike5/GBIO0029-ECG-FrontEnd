@@ -1,0 +1,60 @@
+# ---------- LTspice outputs (regenerated on every run) ----------
+*.raw
+*.log
+*.net
+*.op.raw
+*.fft
+*.db
+*.mout
+*.meas
+*.tmp
+*.bak
+*.emf
+*.qraw
+# LTspice crash/backup copies
+*.asc~
+*.asc.bak
+
+# ---------- PSpice / OrCAD files shipped with the TI INA818 download ----------
+# (only INA818.LIB + INA818.asy are used by LTspice)
+*-PSpiceFiles/
+*.DSN
+*.OPJ
+*.OLB
+*.LIBsig
+*.dbk
+*.opj.lck
+
+# ---------- KiCad ----------
+*-backups/
+*.kicad_prl
+*.lck
+fp-info-cache
+_autosave-*
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+\#auto_saved_files#
+# fabrication outputs (regenerate from the PCB)
+gerbers/
+fabrication/
+*.zip
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---------- OS ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# ---------- Editors ----------
+.vscode/
+.idea/
+*.swp
