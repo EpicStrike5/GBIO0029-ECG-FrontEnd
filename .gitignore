@@ -11,6 +11,7 @@
 *.bak
 *.emf
 *.qraw
+*.plt
 # LTspice crash/backup copies
 *.asc~
 *.asc.bak
