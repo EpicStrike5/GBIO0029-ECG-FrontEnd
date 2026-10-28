@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DPAN02E-12
+#/1036502/1030582/2.50/7/0/Power Supply
+DEF DPAN02E-12 PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "DPAN02E-12" 850 200 50 H V L CNN
+F2 "DPAN02E12" 850 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/dpan02e-12/mean-well-enterprises" 850 0 50 H I L CNN
+F4 "Isolated DC/DC Converters 4.5-5.5Vin +/-12Vout +/-83mA SIP8 Reg Iso" 850 -100 50 H I L CNN "Description"
+F5 "11.6" 850 -200 50 H I L CNN "Height"
+F6 "Mean Well" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DPAN02E-12" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "709-DPAN02E-12" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/DPAN02E-12?qs=5aG0NVq1C4xa85tADbZA0A%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DPAN02E-12" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/dpan02e-12/mean-well-enterprises" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X -VIN 1 0 0 200 R 50 50 0 0 P
+X +VIN 2 0 -100 200 R 50 50 0 0 P
+X R.C. 3 0 -200 200 R 50 50 0 0 P
+X N.C. 5 0 -300 200 R 50 50 0 0 N
+X +VOUT 6 0 -400 200 R 50 50 0 0 P
+X COMMON 7 0 -500 200 R 50 50 0 0 P
+X -VOUT 8 0 -600 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DPAN02E-12
+D Isolated DC/DC Converters 4.5-5.5Vin +/-12Vout +/-83mA SIP8 Reg Iso
+K
+F https://www.arrow.com/en/products/dpan02e-12/mean-well-enterprises
+$ENDCMP
+#
+#End Doc Library
