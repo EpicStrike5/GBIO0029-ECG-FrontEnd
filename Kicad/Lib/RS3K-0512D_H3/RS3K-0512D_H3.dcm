@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RS3K-0512D_H3
+D Isolated Module DC DC Converter 2 Output 12V -12V 125mA, 125mA 4.5V - 9V Input 
+K
+F https://recom-power.com/pdf/Econoline/RS3K(-Z).pdf
+$ENDCMP
+#
+#End Doc Library

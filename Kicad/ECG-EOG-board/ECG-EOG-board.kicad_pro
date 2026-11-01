@@ -632,7 +632,7 @@
         "uuid": "a82bd10b-39cf-4e13-890e-43f54d6bb97d"
       }
     ],
-    "used_designators": "PS1,#PWR5-7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -642,7 +642,11 @@
     ],
     [
       "00f0c479-a66b-4740-b327-b136bf98faa4",
-      "Power"
+      "Digital_Part"
+    ],
+    [
+      "a1a94b09-de52-484e-aded-1dd5f0b04c1b",
+      "Buttons&LEDS"
     ]
   ],
   "text_variables": {},

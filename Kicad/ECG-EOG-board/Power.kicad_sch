@@ -5,612 +5,7 @@
 	(uuid "8bd770fd-aa53-4482-a21e-3f200daddc0b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "USB_C_Receptacle_PowerOnly_6P"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*C*Receptacle*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_PowerOnly_6P_0_0"
-				(rectangle
-					(start -0.254 -12.7)
-					(end 0.254 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_PowerOnly_6P_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -1.27) (xy -8.89 6.35)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.27)
-					(end -6.35 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 6.35)
-					(mid -6.985 6.9823)
-					(end -6.35 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 6.35)
-					(mid -6.985 6.9823)
-					(end -6.35 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 6.35)
-					(mid -6.985 8.2467)
-					(end -5.08 6.35)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -1.27)
-					(mid -6.985 -3.1667)
-					(end -8.89 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -1.27)
-					(mid -6.985 -1.9023)
-					(end -7.62 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -1.27)
-					(mid -6.985 -1.9023)
-					(end -7.62 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 6.35) (xy -5.08 -1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 3.683)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.858) (xy 0 9.398) (xy 1.27 6.858) (xy -1.27 6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 2.54 3.048) (xy 2.54 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -2.54 1.778) (xy -2.54 3.048)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy 0 6.858)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.302)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 4.318)
-					(end 3.175 5.588)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_PowerOnly_6P_1_1"
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -17.78 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ECG-EOG:DPAN02E-12"
+		(symbol "PSU_12V:RS3K-0512D_H3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -627,7 +22,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "DPAN02E-12"
+			(property "Value" "RS3K-0512D_H3"
 				(at 21.59 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -638,7 +33,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "DPAN02E12"
+			(property "Footprint" "RS3K0512DH3"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -650,7 +45,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.arrow.com/en/products/dpan02e-12/mean-well-enterprises"
+			(property "Datasheet" "https://recom-power.com/pdf/Econoline/RS3K(-Z).pdf"
 				(at 21.59 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -662,7 +57,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Isolated DC/DC Converters 4.5-5.5Vin +/-12Vout +/-83mA SIP8 Reg Iso"
+			(property "Description" "Isolated Module DC DC Converter 2 Output 12V -12V 125mA, 125mA 4.5V - 9V Input"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -685,7 +80,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Mean Well"
+			(property "Mouser Part Number" ""
 				(at 21.59 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -697,7 +92,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "DPAN02E-12"
+			(property "Mouser Price/Stock" ""
 				(at 21.59 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -709,7 +104,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "709-DPAN02E-12"
+			(property "Manufacturer_Name" "RECOM Power"
 				(at 21.59 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -721,7 +116,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/DPAN02E-12?qs=5aG0NVq1C4xa85tADbZA0A%3D%3D"
+			(property "Manufacturer_Part_Number" "RS3K-0512D/H3"
 				(at 21.59 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -733,31 +128,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" "DPAN02E-12"
-				(at 21.59 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dpan02e-12/mean-well-enterprises"
-				(at 21.59 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "DPAN02E-12_1_1"
+			(symbol "RS3K-0512D_H3_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -17.78)
@@ -808,7 +179,7 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "R.C."
+					(name "CTRL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -826,7 +197,7 @@
 				(pin no_connect line
 					(at 0 -7.62 0)
 					(length 5.08)
-					(name "N.C."
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -862,7 +233,7 @@
 				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
-					(name "COMMON"
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -888,6 +259,145 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1139,151 +649,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(junction
-		(at 26.67 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08285fa9-9ece-487e-9ab3-b5b8d53d1a40")
+	(text "DC-DC On when CTRL left open or >1.5VDC"
+		(exclude_from_sim no)
+		(at 46.482 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0edb06cf-0563-4f35-b3d8-7351379e131d")
+	)
+	(no_connect
+		(at 45.72 40.64)
+		(uuid "80f80714-621c-4921-88ed-6c5a29e39c19")
 	)
 	(wire
 		(pts
-			(xy 26.67 58.42) (xy 26.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd3025f-6791-4615-88ce-5118843821ca")
-	)
-	(wire
-		(pts
-			(xy 49.53 31.75) (xy 68.58 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1576f085-0436-4feb-9949-f06c74153f68")
-	)
-	(wire
-		(pts
-			(xy 105.41 31.75) (xy 109.22 31.75)
+			(xy 45.72 43.18) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1293,179 +676,49 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 44.45) (xy 68.58 44.45)
+			(xy 45.72 33.02) (xy 60.96 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dea9c66-0f66-4c7e-b788-e4fef79cffc8")
+		(uuid "83095e4c-f4da-4498-8188-9a298b74a768")
 	)
 	(wire
 		(pts
-			(xy 49.53 46.99) (xy 59.69 46.99)
+			(xy 45.72 45.72) (xy 60.96 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0938247-d8a8-4cde-8c72-68fb0ee4cff5")
-	)
-	(wire
-		(pts
-			(xy 26.67 57.15) (xy 26.67 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af86ffcb-b61c-4149-81ef-14d8514320ac")
-	)
-	(wire
-		(pts
-			(xy 68.58 44.45) (xy 68.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3a13ff5-07fa-4b7a-849b-68254489149d")
-	)
-	(wire
-		(pts
-			(xy 34.29 57.15) (xy 34.29 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f913ab91-499e-450d-af28-6e731db75adb")
-	)
-	(label "5V_RAIL"
-		(at 105.41 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05881d6a-6bbc-4aa1-a081-36a12c1d2d2f")
-	)
-	(label "5V_RAIL"
-		(at 68.58 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cd81ad5-913c-443c-b82d-5d63a5f16c0e")
+		(uuid "d40e4a68-f554-45b7-b8f9-814c87846e13")
 	)
 	(hierarchical_label "+12V_RAIL"
 		(shape output)
-		(at 109.22 39.37 180)
+		(at 45.72 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ae39caf9-be6b-44b8-b52f-747fb6b674da")
 	)
 	(hierarchical_label "-12V_RAIL"
 		(shape output)
-		(at 109.22 44.45 180)
+		(at 45.72 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ef6a0bc1-4bd3-409f-b5b5-1afd20b8efc9")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 26.67 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15468d5f-f29e-4ef2-aef0-9cd949c0a635")
-		(property "Reference" "#FLG01"
-			(at 24.765 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 22.86 58.4199 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 26.67 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fccccb7f-a3dc-480d-8d4e-e142fcd7ffce")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
-		(at 59.69 54.61 0)
+		(at 60.96 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1474,9 +727,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "33872967-7cc3-4e74-9c46-cebb07a69121")
-		(property "Reference" "#PWR01"
-			(at 59.69 60.96 0)
+		(uuid "16ce4e4b-47d7-4279-a3de-65c06770cc54")
+		(property "Reference" "#PWR011"
+			(at 60.96 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1487,7 +740,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 59.69 58.42 0)
+			(at 60.96 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1497,7 +750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 54.61 0)
+			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1508,7 +761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 54.61 0)
+			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1519,7 +772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 59.69 54.61 0)
+			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1530,567 +783,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "724f3bc3-e170-4dfd-9a52-24e236a7cd2e")
+			(uuid "8daf2996-2754-45d7-b4b7-cf1b11438b80")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 34.29 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34b2b9e6-bf8f-4f8d-a424-97913793528a")
-		(property "Reference" "#PWR04"
-			(at 34.29 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 34.29 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 34.29 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddb29608-165a-4bf2-a813-636d387f89a9")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 109.22 34.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36268d7a-27a2-4602-ac67-05adbf637e75")
-		(property "Reference" "#PWR06"
-			(at 102.87 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 105.41 34.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 109.22 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50cf6cde-3443-4eeb-be2b-f478bf558242")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 109.22 29.21 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ce22073-9a78-4a4c-a020-495bf26f0687")
-		(property "Reference" "#PWR05"
-			(at 109.22 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 109.22 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 109.22 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a2cb2e0-fdad-4758-92a4-eeeb99c0bb90")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d52a730-3e28-456f-b5c4-fee09280894f")
-		(property "Reference" "R2"
-			(at 71.12 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 71.12 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.802 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7ba61ca-62bc-4f00-8445-c9596e9777fe")
-		)
-		(pin "2"
-			(uuid "f0d16f84-8f41-41c4-9079-86d066edfbee")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40507d5d-f46b-487e-9b89-3e024841bd85")
-		(property "Reference" "R1"
-			(at 62.23 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 62.23 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.912 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e45475b4-d95a-419e-bdb8-e3e6cc8871a4")
-		)
-		(pin "2"
-			(uuid "75114672-4fe9-4e1d-87e6-64b1ab4f9242")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 68.58 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5308fbb1-35cd-48a4-85be-e9f46d104e04")
-		(property "Reference" "#PWR02"
-			(at 68.58 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 68.58 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 68.58 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1da0928c-5d80-4272-a025-10ed826af0ec")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 26.67 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "682eb173-4bd6-4fd1-88c2-003f9fcb60c6")
-		(property "Reference" "#PWR03"
-			(at 26.67 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 26.67 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 26.67 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "188e34d7-fa09-4b89-8b45-a0673d5c43d8")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR03")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2098,7 +796,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 109.22 41.91 270)
+		(at 60.96 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2109,7 +807,7 @@
 		(fields_autoplaced yes)
 		(uuid "99061b68-9c9c-4bdd-9c1c-512fecb0cd91")
 		(property "Reference" "#PWR07"
-			(at 102.87 41.91 0)
+			(at 60.96 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2120,18 +818,18 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 105.41 41.9099 90)
+			(at 63.5 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 41.91 0)
+			(at 60.96 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2142,7 +840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 41.91 0)
+			(at 60.96 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2153,7 +851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 109.22 41.91 0)
+			(at 60.96 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2164,7 +862,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69f23bd6-075c-48c7-9953-db9f51fc75a9")
+			(uuid "4e446f3a-0704-4c3e-b2d8-3399f5372241")
 		)
 		(instances
 			(project "ECG-EOG-board"
@@ -2176,8 +874,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
-		(at 34.29 39.37 0)
+		(lib_id "power:+5V")
+		(at 72.39 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2186,9 +884,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0ec932b-1203-4ef9-a70f-c15b9296331b")
-		(property "Reference" "J1"
-			(at 34.29 21.59 0)
+		(uuid "a744539d-1b9f-4a69-b457-83a7cb4b1bf7")
+		(property "Reference" "#PWR01"
+			(at 72.39 46.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2197,8 +896,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
-			(at 34.29 24.13 0)
+		(property "Value" "+5V"
+			(at 72.39 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2208,7 +907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 36.83 0)
+			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,8 +917,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 34.29 39.37 0)
+		(property "Datasheet" ""
+			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,8 +928,8 @@
 				)
 			)
 		)
-		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-			(at 34.29 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2240,39 +939,21 @@
 				)
 			)
 		)
-		(pin "SH"
-			(uuid "2f845bde-8de5-4f40-bd5b-66792a344618")
-		)
-		(pin "B9"
-			(uuid "9d39b4f1-01b8-4432-9e1a-c58a99c58dfa")
-		)
-		(pin "A12"
-			(uuid "9b392b61-1e77-44ad-9c2d-6e30d99193bf")
-		)
-		(pin "B5"
-			(uuid "9f234b30-77c5-4c58-a406-47271e880755")
-		)
-		(pin "B12"
-			(uuid "4fd5fba3-e96e-4201-b5cd-7e2daef3c292")
-		)
-		(pin "A5"
-			(uuid "0a263c4f-428a-40f8-82ea-3b38abe52ca6")
-		)
-		(pin "A9"
-			(uuid "de0f4be7-d66c-477b-9f9f-e740b50c97fa")
+		(pin "1"
+			(uuid "5c6e832d-d086-4a01-b7da-3ee44e97365c")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "J1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ECG-EOG:DPAN02E-12")
-		(at 109.22 29.21 0)
+		(lib_id "PSU_12V:RS3K-0512D_H3")
+		(at 45.72 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2281,31 +962,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd2f2e29-eb78-4637-986f-98c3515808aa")
+		(uuid "c99f9df9-08cc-499f-b66a-08055e1ec568")
 		(property "Reference" "PS1"
-			(at 130.81 35.5599 0)
+			(at 33.02 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "DPAN02E-12"
-			(at 130.81 38.0999 0)
+		(property "Value" "RS3K-0512D_H3"
+			(at 33.02 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "DPAN02E12"
-			(at 130.81 124.13 0)
+		(property "Footprint" "RS3K0512DH3"
+			(at 24.13 -49.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,8 +995,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/dpan02e-12/mean-well-enterprises"
-			(at 130.81 224.13 0)
+		(property "Datasheet" "https://recom-power.com/pdf/Econoline/RS3K(-Z).pdf"
+			(at 24.13 -149.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2328,8 +1007,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Isolated DC/DC Converters 4.5-5.5Vin +/-12Vout +/-83mA SIP8 Reg Iso"
-			(at 109.22 29.21 0)
+		(property "Description" "Isolated Module DC DC Converter 2 Output 12V -12V 125mA, 125mA 4.5V - 9V Input"
+			(at 45.72 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2340,7 +1019,7 @@
 			)
 		)
 		(property "Height" "11.6"
-			(at 130.81 424.13 0)
+			(at 24.13 -349.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2351,8 +1030,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Mean Well"
-			(at 130.81 524.13 0)
+		(property "Mouser Part Number" ""
+			(at 24.13 -449.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2363,8 +1042,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DPAN02E-12"
-			(at 130.81 624.13 0)
+		(property "Mouser Price/Stock" ""
+			(at 24.13 -549.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,8 +1054,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "709-DPAN02E-12"
-			(at 130.81 724.13 0)
+		(property "Manufacturer_Name" "RECOM Power"
+			(at 24.13 -649.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,32 +1066,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/DPAN02E-12?qs=5aG0NVq1C4xa85tADbZA0A%3D%3D"
-			(at 130.81 824.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "DPAN02E-12"
-			(at 130.81 924.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dpan02e-12/mean-well-enterprises"
-			(at 130.81 1024.13 0)
+		(property "Manufacturer_Part_Number" "RS3K-0512D/H3"
+			(at 24.13 -749.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,25 +1079,25 @@
 			)
 		)
 		(pin "5"
-			(uuid "8f1b07ea-529c-43e8-bf5e-c974fe8a396a")
-		)
-		(pin "1"
-			(uuid "3823b30a-34e4-4e63-8238-6ccd0d70a284")
+			(uuid "98f8e774-d395-4ae2-9dd2-31e6c8434a13")
 		)
 		(pin "7"
-			(uuid "9e2411eb-d731-4e2f-a1c9-6a9dafed79b7")
+			(uuid "5ce79914-fd31-4d9b-8327-8a43ba5684ef")
 		)
 		(pin "2"
-			(uuid "2197502e-c480-442b-9a73-5443f467bba1")
+			(uuid "cecdbe3b-3966-4a50-914f-dd99077bd539")
 		)
 		(pin "3"
-			(uuid "54d47658-6746-45f8-aee2-2e8fc2eda01b")
+			(uuid "b3ec31c2-ded1-4a32-9f54-4a4dec3ea80c")
+		)
+		(pin "1"
+			(uuid "19fe9171-1b69-425a-8c17-00a617cef40f")
 		)
 		(pin "6"
-			(uuid "5c872d1a-42f8-41e6-9b63-d92f2cdf3d11")
+			(uuid "aad1761e-487a-4ca9-8bec-e08f133d8f16")
 		)
 		(pin "8"
-			(uuid "9d107343-80b0-4b8a-ab5e-7cb117ee53cb")
+			(uuid "db465fb7-503b-41e6-b254-94d2b8608a59")
 		)
 		(instances
 			(project "ECG-EOG-board"

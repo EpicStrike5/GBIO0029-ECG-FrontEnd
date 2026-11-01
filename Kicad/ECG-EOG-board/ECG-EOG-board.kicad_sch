@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 19.05 16.002)
+		(at 70.358 50.546)
 		(size 36.83 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "00f0c479-a66b-4740-b327-b136bf98faa4")
-		(property "Sheetname" "Power"
-			(at 19.05 15.2904 0)
+		(property "Sheetname" "Digital_Part"
+			(at 70.358 49.8344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,8 +32,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 19.05 49.6066 0)
+		(property "Sheetfile" "Digital_Part.kicad_sch"
+			(at 70.358 84.1506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
