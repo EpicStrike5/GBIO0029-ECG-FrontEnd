@@ -1779,6 +1779,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 154.94) (xy 41.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15258985-1296-4bd7-b828-ba7f38304c39")
+	)
+	(wire
+		(pts
 			(xy 45.72 43.18) (xy 72.39 43.18)
 		)
 		(stroke
@@ -1786,6 +1796,46 @@
 			(type default)
 		)
 		(uuid "1c2f8de8-e2d4-4839-b6fb-22fe0b1a94bb")
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c083d2-bc70-436a-b6dd-b52f6af22a62")
+	)
+	(wire
+		(pts
+			(xy 57.15 154.94) (xy 57.15 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d62a18-a2db-462c-8f5c-a385b1cb75c0")
+	)
+	(wire
+		(pts
+			(xy 102.87 36.83) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365f82d4-5d7d-4d64-9d8b-74579b4e20ff")
+	)
+	(wire
+		(pts
+			(xy 67.31 154.94) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402159ef-555b-4f63-a675-5bee723173fc")
 	)
 	(wire
 		(pts
@@ -1809,6 +1859,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 154.94) (xy 62.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5521059d-e68d-474d-acc6-0bbd777418b5")
+	)
+	(wire
+		(pts
+			(xy 102.87 44.45) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781288f8-ce33-43bb-8c29-95e8e21220f2")
+	)
+	(wire
+		(pts
 			(xy 45.72 33.02) (xy 60.96 33.02)
 		)
 		(stroke
@@ -1819,13 +1889,53 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 107.95 55.88)
+			(xy 102.87 48.26) (xy 107.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c92a1c-3f19-4fbd-8d03-77c122701c90")
+	)
+	(wire
+		(pts
+			(xy 52.07 154.94) (xy 52.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f398c46-38d5-4d7d-b297-74411a506c7b")
+	)
+	(wire
+		(pts
+			(xy 102.87 55.88) (xy 107.95 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa8ba6ee-5be2-453d-8991-504788d5ea59")
+	)
+	(wire
+		(pts
+			(xy 46.99 154.94) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b9c1a3-7371-4e10-8554-a355c4016bde")
+	)
+	(wire
+		(pts
+			(xy 102.87 59.69) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddf97db-c8d0-4a5d-88af-146e8b6b2a95")
 	)
 	(wire
 		(pts
@@ -1839,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 107.95 52.07)
+			(xy 102.87 52.07) (xy 107.95 52.07)
 		)
 		(stroke
 			(width 0)
@@ -48924,8 +49034,28 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAIrkRTM90nYdwAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "OUT_WEB"
+		(at 67.31 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1238d29a-e01a-42cf-a42f-6b455be98e9f")
+	)
+	(label "BTN_DCDC"
+		(at 52.07 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ca37059-4819-431c-8fbf-2dfdb86c35f1")
+	)
 	(label "I2C_SDA"
-		(at 104.14 52.07 180)
+		(at 102.87 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48934,8 +49064,78 @@
 		)
 		(uuid "306f8fad-f057-484c-8952-4fa0087f6893")
 	)
+	(label "V_CTRL"
+		(at 62.23 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "312a92a6-4637-445e-892d-b9a8e8c829ca")
+	)
+	(label "OUT_WEB"
+		(at 102.87 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "413918c5-2338-4228-88ca-e68525348a8a")
+	)
+	(label "OUT_DC-EN"
+		(at 41.91 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52941601-a8a9-4a11-857b-ab665c8a18c6")
+	)
+	(label "BTN_Type"
+		(at 102.87 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55519cf4-9e35-449c-ab07-98d6ce820665")
+	)
+	(label "OUT_I2C"
+		(at 46.99 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "604e9c13-fc46-451b-a401-71ae23e2a81e")
+	)
+	(label "OLED_SCL"
+		(at 149.86 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67707b04-d3d2-4888-b81b-b0fb29f02a2e")
+	)
+	(label "OLED_DS"
+		(at 149.86 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e4d7959-e3f6-45f2-ae07-d6a701234327")
+	)
 	(label "I2C_SCL"
-		(at 104.14 55.88 180)
+		(at 102.87 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48943,6 +49143,26 @@
 			(justify right bottom)
 		)
 		(uuid "7557eacf-7997-4bd7-a325-6105a734c55c")
+	)
+	(label "BTN_Type"
+		(at 57.15 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bb9b283-6e30-45cc-ad8d-eca9583f24e1")
+	)
+	(label "BTN_DCDC"
+		(at 102.87 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "839063c3-680d-47b8-a896-c598d740a166")
 	)
 	(label "I2C_SDA"
 		(at 194.31 50.8 180)
@@ -48954,6 +49174,26 @@
 		)
 		(uuid "854a8bbe-10cd-4854-9e2d-5e041f6a082a")
 	)
+	(label "OLED_CS"
+		(at 149.86 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a37a542-ff0d-4b29-896a-055845be5a45")
+	)
+	(label "OLED_SDA"
+		(at 149.86 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98bbb24a-2093-4169-995b-aabf4deeff93")
+	)
 	(label "V_CTRL"
 		(at 45.72 40.64 0)
 		(effects
@@ -48963,6 +49203,26 @@
 			(justify left bottom)
 		)
 		(uuid "9a675f1c-0a5e-4ddc-9825-013fd1c5f149")
+	)
+	(label "OUT_I2C"
+		(at 102.87 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a36b034a-ee4f-4f20-937d-12b238862d91")
+	)
+	(label "OUT_DC-EN"
+		(at 102.87 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a54e7cf7-b5f8-416c-ba55-8661cd517a3c")
 	)
 	(label "I2C_SCL"
 		(at 194.31 54.61 180)
@@ -48974,50 +49234,6 @@
 		)
 		(uuid "b9c8abbc-fc34-4883-b21d-ce4f16835af8")
 	)
-	(hierarchical_label "TOGGLE_TYPE"
-		(shape output)
-		(at 107.95 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "226ce4f8-1d5e-4bc2-aa99-04394e4c9b17")
-	)
-	(hierarchical_label "WEB_STATUS"
-		(shape output)
-		(at 107.95 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ea5c2d2-193a-4570-9b2f-529918d59d4c")
-	)
-	(hierarchical_label "TOGGLE_DC-DC"
-		(shape output)
-		(at 107.95 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4452c1b8-51cc-4ec6-8f65-3e25eb838681")
-	)
-	(hierarchical_label "DCDC_EN"
-		(shape output)
-		(at 107.95 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b8702ad-cf6c-4ddd-b1f3-64a94e126e5d")
-	)
 	(hierarchical_label "+12V_RAIL"
 		(shape output)
 		(at 45.72 35.56 0)
@@ -49028,17 +49244,6 @@
 			(justify left)
 		)
 		(uuid "ae39caf9-be6b-44b8-b52f-747fb6b674da")
-	)
-	(hierarchical_label "I2C_STATUS"
-		(shape output)
-		(at 107.95 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c71b25c6-4604-4181-aabe-9805345a328e")
 	)
 	(hierarchical_label "-12V_RAIL"
 		(shape output)
@@ -50318,7 +50523,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 101.6)
+		(at 24.13 160.02)
 		(size 61.214 25.654)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50334,7 +50539,7 @@
 		)
 		(uuid "a1a94b09-de52-484e-aded-1dd5f0b04c1b")
 		(property "Sheetname" "Buttons&LEDS"
-			(at 25.4 100.8884 0)
+			(at 24.13 159.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50345,7 +50550,7 @@
 			)
 		)
 		(property "Sheetfile" "Buttons&LEDS.kicad_sch"
-			(at 25.4 127.8386 0)
+			(at 24.13 186.2586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50353,6 +50558,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DCDC_EN" input
+			(at 41.91 160.02 90)
+			(uuid "62f12e95-432c-496e-94ea-1b31749141d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_STATUS" input
+			(at 46.99 160.02 90)
+			(uuid "6e0080de-3c45-46d0-a557-925e310da81c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TOGGLE_DC-DC" input
+			(at 52.07 160.02 90)
+			(uuid "fcc7e171-c80f-43bd-bcab-7ae62b78cc86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TOGGLE_TYPE" input
+			(at 57.15 160.02 90)
+			(uuid "af6f1b5f-f6ea-41a8-aad2-4d9ba15ff088")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_CTRL" output
+			(at 62.23 160.02 90)
+			(uuid "2c014740-2954-4945-a31b-c46e18306c57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WEB_STATUS" input
+			(at 67.31 160.02 90)
+			(uuid "fc3614d9-a9e4-426e-94f1-f6e4b8e75d2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
