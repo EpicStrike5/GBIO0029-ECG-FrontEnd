@@ -36,6 +36,12 @@ _autosave-*
 *.kicad_sch-bak
 *.kicad_pcb-bak
 *~
+*.kicad_prl
+*-backups/
+.history/
+fp-info-cache
+*.log
+
 \#auto_saved_files#
 # fabrication outputs (regenerate from the PCB)
 gerbers/
@@ -60,3 +66,6 @@ $RECYCLE.BIN/
 .idea/
 *.swp
 Kicad/ECG-EOG-board/.history/
+
+
+
