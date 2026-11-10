@@ -453,6 +453,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -500,8 +501,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -510,6 +511,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -632,7 +634,7 @@
         "uuid": "a82bd10b-39cf-4e13-890e-43f54d6bb97d"
       }
     ],
-    "used_designators": "D5-6,#PWR22-24,Q8,R15-17",
+    "used_designators": "#PWR15-16,#PWR22-24,C1-5,C_cm3,C_cm5,C_diff1,D4-9,Q8,R7-8,R12,R14-19,U17-18",
     "variants": []
   },
   "sheets": [
@@ -647,6 +649,26 @@
     [
       "a1a94b09-de52-484e-aded-1dd5f0b04c1b",
       "Buttons&LEDS"
+    ],
+    [
+      "e3b9655a-1590-4f87-98f8-2ddb5afd956b",
+      "EMI"
+    ],
+    [
+      "45b62fa9-8fad-42ac-9c00-f02250bab916",
+      "INA"
+    ],
+    [
+      "f208b971-018a-4d93-ada1-1f904e197a33",
+      "RLD"
+    ],
+    [
+      "73d8d687-fd7a-41c0-812f-4a8a44c88908",
+      "RLD1"
+    ],
+    [
+      "8d362e79-5197-43db-8173-4159292bf66c",
+      "RLD2"
     ]
   ],
   "text_variables": {},
