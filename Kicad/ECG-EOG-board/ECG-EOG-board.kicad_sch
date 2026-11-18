@@ -7,6 +7,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 57.15 27.94) (xy 66.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4c7c36-81d2-4d73-ac03-ce7906f8ff18")
+	)
+	(wire
+		(pts
+			(xy 57.15 30.48) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bc008b-cadc-4c5a-84ea-43d40d61e1d2")
+	)
+	(wire
+		(pts
 			(xy 57.15 25.4) (xy 66.04 25.4)
 		)
 		(stroke
@@ -56,6 +76,26 @@
 		(pin "V_CTRL" output
 			(at 57.15 25.4 0)
 			(uuid "33519a4d-4984-4947-90c2-44d2a181aa81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 57.15 27.94 0)
+			(uuid "53482cd8-efca-46b5-94a7-400a9f839325")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" output
+			(at 57.15 30.48 0)
+			(uuid "695fe4a4-f36d-4c94-b665-d91c70ba93bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,26 +287,6 @@
 				(justify left top)
 			)
 		)
-		(pin "+12V_RAIL" output
-			(at 78.74 30.48 0)
-			(uuid "ffe43bac-fc9e-44e1-838f-bbb2e00cada9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "-12V_RAIL" output
-			(at 78.74 33.02 0)
-			(uuid "8b6a8f09-8158-4e64-bfeb-3373b5654dea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "V_CTRL" input
 			(at 66.04 25.4 180)
 			(uuid "6bf40e84-c09d-4659-ac87-4c7ed918f149")
@@ -275,6 +295,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 66.04 27.94 180)
+			(uuid "1125be46-c8c8-4585-aa25-ae274e7e4d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 66.04 30.48 180)
+			(uuid "7061da19-1593-4ba6-a0f0-5b7da793fe24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_ISO" output
+			(at 78.74 34.29 0)
+			(uuid "de580e18-4ad1-4501-86be-9c0b24469815")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_ISO" output
+			(at 78.74 36.83 0)
+			(uuid "d9af8061-8f4e-4b65-8423-a0bda04174f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
