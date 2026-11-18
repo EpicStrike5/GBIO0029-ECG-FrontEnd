@@ -5,9 +5,19 @@
 	(uuid "a82bd10b-39cf-4e13-890e-43f54d6bb97d")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 57.15 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaefde3e-a203-42e4-a263-8f7cc8dd239f")
+	)
 	(sheet
-		(at 70.358 50.546)
-		(size 36.83 33.02)
+		(at 19.05 20.32)
+		(size 38.1 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +32,7 @@
 		)
 		(uuid "00f0c479-a66b-4740-b327-b136bf98faa4")
 		(property "Sheetname" "Digital_Part"
-			(at 70.358 49.8344 0)
+			(at 19.05 19.6084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +43,7 @@
 			)
 		)
 		(property "Sheetfile" "Digital_Part.kicad_sch"
-			(at 70.358 84.1506 0)
+			(at 19.05 53.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +51,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V_CTRL" output
+			(at 57.15 25.4 0)
+			(uuid "33519a4d-4984-4947-90c2-44d2a181aa81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -185,6 +205,82 @@
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 20.32)
+		(size 12.7 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9dcf53e8-7283-4241-9703-58bf6e3cf4b9")
+		(property "Sheetname" "Analog_interface"
+			(at 66.04 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog_interface.kicad_sch"
+			(at 66.04 53.6706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V_RAIL" output
+			(at 78.74 30.48 0)
+			(uuid "ffe43bac-fc9e-44e1-838f-bbb2e00cada9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-12V_RAIL" output
+			(at 78.74 33.02 0)
+			(uuid "8b6a8f09-8158-4e64-bfeb-3373b5654dea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_CTRL" input
+			(at 66.04 25.4 180)
+			(uuid "6bf40e84-c09d-4659-ac87-4c7ed918f149")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d"
+					(page "9")
 				)
 			)
 		)

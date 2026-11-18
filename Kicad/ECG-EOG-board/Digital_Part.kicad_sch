@@ -5,6 +5,362 @@
 	(uuid "8bd770fd-aa53-4482-a21e-3f200daddc0b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -145,14 +501,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:ISO1540"
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -161,8 +523,8 @@
 					)
 				)
 			)
-			(property "Value" "ISO1540"
-				(at 3.81 6.35 0)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -171,19 +533,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso1541.pdf"
-				(at 0 1.27 0)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -193,7 +544,7 @@
 					)
 				)
 			)
-			(property "Description" "I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8"
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -204,7 +555,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "digital isolator i2c"
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +566,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -226,36 +577,58 @@
 					)
 				)
 			)
-			(symbol "ISO1540_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -7.62)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -0.635 0.635) (xy -1.27 0) (xy -0.635 -0.635) (xy -0.635 0.635)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -264,7 +637,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -272,85 +645,14 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 -5.08)
-					(end 0 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 1.27 0) (xy 0.635 -0.635) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 1.27 -2.54) (xy 0.635 -3.175) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "ISO1540_1_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy -1.27 -2.54) (xy -0.635 -3.175) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "VCC1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -365,10 +667,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 0 0)
+				(pin passive line
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "SDA1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -376,114 +678,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SCL1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SCL2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SDA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VCC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -494,48 +688,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PSU_12V:RS3K-0512D_H3"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "PS"
-				(at 21.59 7.62 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Value" "RS3K-0512D_H3"
-				(at 21.59 5.08 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "RS3K0512DH3"
-				(at 21.59 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://recom-power.com/pdf/Econoline/RS3K(-Z).pdf"
-				(at 21.59 -194.92 0)
+			(property "Footprint" ""
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -543,10 +731,20 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Description" "Isolated Module DC DC Converter 2 Output 12V -12V 125mA, 125mA 4.5V - 9V Input"
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -557,8 +755,8 @@
 					)
 				)
 			)
-			(property "Height" "11.6"
-				(at 21.59 -394.92 0)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -566,73 +764,59 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 21.59 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 21.59 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "RECOM Power"
-				(at 21.59 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "RS3K-0512D/H3"
-				(at 21.59 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "RS3K-0512D_H3_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -17.78)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "-VIN"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -648,9 +832,306 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "+VIN"
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -666,9 +1147,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CTRL"
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -676,78 +1157,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "-VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1372,7 +1781,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+5VD"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1397,7 +1806,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+5VD"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1429,7 +1838,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+5VD\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1451,7 +1860,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+5VD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1489,124 +1898,9 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+5VD_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDA"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
 					(length 0)
 					(name ""
 						(effects
@@ -1753,23 +2047,88 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DC-DC On when CTRL left open or >1.5VDC"
+	(text "2 paths : \nOne to enable the PSU\nOne to enable a LED \nLED is ON when PSU is OFF "
 		(exclude_from_sim no)
-		(at 46.482 55.626 0)
+		(at 21.59 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "0edb06cf-0563-4f35-b3d8-7351379e131d")
+		(uuid "7460be88-f7da-425e-ab8e-80b42ea6f53b")
+	)
+	(junction
+		(at 229.87 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c48930e-b232-4979-9ea5-bfafa0c83173")
+	)
+	(junction
+		(at 104.14 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ed50f42-9bef-413e-b612-20c3626f5205")
+	)
+	(junction
+		(at 59.69 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4f885b-c036-4e5a-bc94-f87a212b4224")
+	)
+	(junction
+		(at 50.8 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f01f040-c9b9-4b18-a45e-fbb54c9fe335")
+	)
+	(junction
+		(at 229.87 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac0d00c-5807-418c-a015-222403446755")
+	)
+	(junction
+		(at 229.87 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adb173db-6f0b-4929-ac2c-480d8ab194d2")
+	)
+	(junction
+		(at 50.8 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b781bf5a-dd21-4b97-8af1-f063c8341bea")
+	)
+	(junction
+		(at 229.87 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7f2ae9d-7168-425f-84ea-eb42404e945c")
+	)
+	(junction
+		(at 157.48 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f70673fc-c0ed-413e-8730-35ed8630644c")
 	)
 	(no_connect
-		(at 127 68.58)
+		(at 63.5 73.66)
 		(uuid "8d4af319-6354-4872-8b4e-ebcd66084fc7")
 	)
 	(wire
 		(pts
-			(xy 149.86 36.83) (xy 154.94 36.83)
+			(xy 114.3 135.89) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14cde422-e90b-475e-9961-73bd9891ee80")
+	)
+	(wire
+		(pts
+			(xy 86.36 41.91) (xy 91.44 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1779,27 +2138,37 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 154.94) (xy 41.91 160.02)
+			(xy 157.48 130.81) (xy 157.48 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15258985-1296-4bd7-b828-ba7f38304c39")
+		(uuid "18ae5d2c-b014-47c4-a886-243b1f4bb1da")
 	)
 	(wire
 		(pts
-			(xy 45.72 43.18) (xy 72.39 43.18)
+			(xy 59.69 123.19) (xy 59.69 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c2f8de8-e2d4-4839-b6fb-22fe0b1a94bb")
+		(uuid "27faff6b-3995-4d83-8dc2-fc0af310d59f")
 	)
 	(wire
 		(pts
-			(xy 102.87 40.64) (xy 107.95 40.64)
+			(xy 245.11 140.97) (xy 245.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29dc3419-7b9e-4fc5-ac5f-4dc43de0d494")
+	)
+	(wire
+		(pts
+			(xy 39.37 45.72) (xy 44.45 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1809,17 +2178,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 154.94) (xy 57.15 160.02)
+			(xy 215.9 132.08) (xy 219.71 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33d62a18-a2db-462c-8f5c-a385b1cb75c0")
+		(uuid "35f00999-76c6-4d4b-b28f-cbeb30d89def")
 	)
 	(wire
 		(pts
-			(xy 102.87 36.83) (xy 107.95 36.83)
+			(xy 39.37 41.91) (xy 44.45 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1829,17 +2198,57 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 154.94) (xy 67.31 160.02)
+			(xy 227.33 105.41) (xy 229.87 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "402159ef-555b-4f63-a675-5bee723173fc")
+		(uuid "3c5c2404-731e-4348-8e78-794bc5d85788")
 	)
 	(wire
 		(pts
-			(xy 149.86 40.64) (xy 160.02 40.64)
+			(xy 59.69 105.41) (xy 59.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db6c033-dfc1-4fbc-a44f-47c191f69d98")
+	)
+	(wire
+		(pts
+			(xy 229.87 115.57) (xy 229.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b3e7f9-7081-4cfe-8fd7-24f06cae3cee")
+	)
+	(wire
+		(pts
+			(xy 36.83 129.54) (xy 40.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49841e08-37d1-4334-a80e-e59216d62150")
+	)
+	(wire
+		(pts
+			(xy 59.69 134.62) (xy 59.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d97e0e2-d67d-4ec1-8a38-dc1a7cf8575c")
+	)
+	(wire
+		(pts
+			(xy 86.36 45.72) (xy 96.52 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 44.45) (xy 154.94 44.45)
+			(xy 86.36 49.53) (xy 91.44 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1859,17 +2268,47 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 154.94) (xy 62.23 160.02)
+			(xy 59.69 180.34) (xy 59.69 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5521059d-e68d-474d-acc6-0bbd777418b5")
+		(uuid "6182df06-fa5e-4588-ad6f-117374df56bc")
 	)
 	(wire
 		(pts
-			(xy 102.87 44.45) (xy 107.95 44.45)
+			(xy 245.11 106.68) (xy 245.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6900d9a3-0b72-401e-b9d4-7d3ac0a9997d")
+	)
+	(wire
+		(pts
+			(xy 59.69 120.65) (xy 59.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6ec0dc-5f26-4da6-8b63-6a551b34e4f5")
+	)
+	(wire
+		(pts
+			(xy 50.8 175.26) (xy 52.07 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75197f94-c237-40ac-bdf9-f9c712e16063")
+	)
+	(wire
+		(pts
+			(xy 39.37 49.53) (xy 44.45 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1879,17 +2318,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 33.02) (xy 60.96 33.02)
+			(xy 229.87 142.24) (xy 229.87 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83095e4c-f4da-4498-8188-9a298b74a768")
+		(uuid "7dd80469-10cb-4952-b038-79aca81cc704")
 	)
 	(wire
 		(pts
-			(xy 102.87 48.26) (xy 107.95 48.26)
+			(xy 104.14 130.81) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84eb9193-f89f-4fd2-aff0-a0bd18f1057e")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34) (xy 44.45 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1899,17 +2348,77 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 154.94) (xy 52.07 160.02)
+			(xy 245.11 133.35) (xy 245.11 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f398c46-38d5-4d7d-b297-74411a506c7b")
+		(uuid "8843315f-dc56-40a8-a917-646d2f9b90ca")
 	)
 	(wire
 		(pts
-			(xy 102.87 55.88) (xy 107.95 55.88)
+			(xy 48.26 129.54) (xy 50.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4e3a1f-8e32-4bf6-b1a9-5c46891d0488")
+	)
+	(wire
+		(pts
+			(xy 104.14 130.81) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913c9ab6-af4e-4944-9ad1-a6ba0e038d6f")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 167.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954d1773-26ca-40da-815d-bbcbdd32b119")
+	)
+	(wire
+		(pts
+			(xy 245.11 114.3) (xy 245.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980092c0-daac-4087-ae3f-c6586b921bfb")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 114.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7dcaac-c747-4683-867f-9aacbd415b03")
+	)
+	(wire
+		(pts
+			(xy 167.64 135.89) (xy 167.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa20e229-f8e7-40a0-8bc0-ffa1170c319f")
+	)
+	(wire
+		(pts
+			(xy 39.37 60.96) (xy 44.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1919,17 +2428,67 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 154.94) (xy 46.99 160.02)
+			(xy 229.87 105.41) (xy 245.11 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9b9c1a3-7371-4e10-8554-a355c4016bde")
+		(uuid "bcaf90ad-8c8a-4b7b-aa75-a8dcaf997619")
 	)
 	(wire
 		(pts
-			(xy 102.87 59.69) (xy 107.95 59.69)
+			(xy 215.9 105.41) (xy 219.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce58096-3922-49e7-814e-2d17751df35d")
+	)
+	(wire
+		(pts
+			(xy 48.26 175.26) (xy 50.8 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3478eb-c8d4-4120-85f0-5161d968b3b0")
+	)
+	(wire
+		(pts
+			(xy 245.11 142.24) (xy 229.87 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8d0e04-2264-4a22-9b44-9a0e62c945f1")
+	)
+	(wire
+		(pts
+			(xy 50.8 129.54) (xy 52.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca30e88a-1b0f-49ce-b1be-face7513199e")
+	)
+	(wire
+		(pts
+			(xy 245.11 115.57) (xy 229.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb52f3be-e29d-428a-a655-a6ffe7a519ad")
+	)
+	(wire
+		(pts
+			(xy 39.37 64.77) (xy 44.45 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1939,23 +2498,73 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 60.96 45.72)
+			(xy 229.87 132.08) (xy 245.11 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d40e4a68-f554-45b7-b8f9-814c87846e13")
+		(uuid "d4d3fdce-3e34-4452-ace5-b14bfda9c875")
 	)
 	(wire
 		(pts
-			(xy 102.87 52.07) (xy 107.95 52.07)
+			(xy 59.69 166.37) (xy 59.69 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1234a9-b640-4991-a93e-b5aba906dc0b")
+	)
+	(wire
+		(pts
+			(xy 227.33 132.08) (xy 229.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd705907-a1c5-4479-8d85-1f04001c0209")
+	)
+	(wire
+		(pts
+			(xy 36.83 175.26) (xy 40.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff4f3ec-5d2d-4ef8-b8ed-207f568c18d9")
+	)
+	(wire
+		(pts
+			(xy 59.69 123.19) (xy 68.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ac0294-0ff5-45ec-978c-1a683fc85868")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 44.45 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed2e8057-d7c7-4d9e-a3d4-745543845ea6")
+	)
+	(wire
+		(pts
+			(xy 157.48 130.81) (xy 160.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba3b907-869e-4811-afff-07aa3b61dfe9")
 	)
 	(image
 		(at -313.182 104.648)
@@ -49034,48 +49643,28 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAIrkRTM90nYdwAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "OUT_WEB"
-		(at 67.31 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1238d29a-e01a-42cf-a42f-6b455be98e9f")
-	)
 	(label "BTN_DCDC"
-		(at 52.07 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ca37059-4819-431c-8fbf-2dfdb86c35f1")
-	)
-	(label "I2C_SDA"
-		(at 102.87 52.07 180)
+		(at 215.9 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "306f8fad-f057-484c-8952-4fa0087f6893")
+		(uuid "119e67e1-c65a-447e-9590-82eba7057ee6")
 	)
-	(label "V_CTRL"
-		(at 62.23 154.94 90)
+	(label "OUT_WEB"
+		(at 96.52 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "312a92a6-4637-445e-892d-b9a8e8c829ca")
+		(uuid "2b109f2e-6478-455b-a752-949443de15ad")
 	)
 	(label "OUT_WEB"
-		(at 102.87 59.69 180)
+		(at 39.37 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49084,18 +49673,8 @@
 		)
 		(uuid "413918c5-2338-4228-88ca-e68525348a8a")
 	)
-	(label "OUT_DC-EN"
-		(at 41.91 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52941601-a8a9-4a11-857b-ab665c8a18c6")
-	)
 	(label "BTN_Type"
-		(at 102.87 36.83 180)
+		(at 39.37 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49104,18 +49683,8 @@
 		)
 		(uuid "55519cf4-9e35-449c-ab07-98d6ce820665")
 	)
-	(label "OUT_I2C"
-		(at 46.99 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "604e9c13-fc46-451b-a401-71ae23e2a81e")
-	)
 	(label "OLED_SCL"
-		(at 149.86 55.88 0)
+		(at 86.36 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49124,8 +49693,18 @@
 		)
 		(uuid "67707b04-d3d2-4888-b81b-b0fb29f02a2e")
 	)
+	(label "OUT_DC-EN"
+		(at 36.83 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6981d801-8447-4d40-aa18-bc6fc799f8c5")
+	)
 	(label "OLED_DS"
-		(at 149.86 52.07 0)
+		(at 86.36 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49134,28 +49713,8 @@
 		)
 		(uuid "6e4d7959-e3f6-45f2-ae07-d6a701234327")
 	)
-	(label "I2C_SCL"
-		(at 102.87 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7557eacf-7997-4bd7-a325-6105a734c55c")
-	)
-	(label "BTN_Type"
-		(at 57.15 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bb9b283-6e30-45cc-ad8d-eca9583f24e1")
-	)
 	(label "BTN_DCDC"
-		(at 102.87 40.64 180)
+		(at 39.37 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49164,18 +49723,8 @@
 		)
 		(uuid "839063c3-680d-47b8-a896-c598d740a166")
 	)
-	(label "I2C_SDA"
-		(at 194.31 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "854a8bbe-10cd-4854-9e2d-5e041f6a082a")
-	)
 	(label "OLED_CS"
-		(at 149.86 59.69 0)
+		(at 86.36 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49185,7 +49734,7 @@
 		(uuid "8a37a542-ff0d-4b29-896a-055845be5a45")
 	)
 	(label "OLED_SDA"
-		(at 149.86 48.26 0)
+		(at 86.36 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49194,18 +49743,8 @@
 		)
 		(uuid "98bbb24a-2093-4169-995b-aabf4deeff93")
 	)
-	(label "V_CTRL"
-		(at 45.72 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a675f1c-0a5e-4ddc-9825-013fd1c5f149")
-	)
 	(label "OUT_I2C"
-		(at 102.87 48.26 180)
+		(at 39.37 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49215,7 +49754,7 @@
 		(uuid "a36b034a-ee4f-4f20-937d-12b238862d91")
 	)
 	(label "OUT_DC-EN"
-		(at 102.87 44.45 180)
+		(at 39.37 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49224,41 +49763,72 @@
 		)
 		(uuid "a54e7cf7-b5f8-416c-ba55-8661cd517a3c")
 	)
-	(label "I2C_SCL"
-		(at 194.31 54.61 180)
+	(label "BTN_Type"
+		(at 215.9 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b9c8abbc-fc34-4883-b21d-ce4f16835af8")
+		(uuid "ac6efc99-b6b0-453d-9e9d-fa2dcbf07279")
 	)
-	(hierarchical_label "+12V_RAIL"
+	(label "OUT_I2C"
+		(at 149.86 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1969649-db1c-4664-9c52-9140e638b380")
+	)
+	(label "OUT_DC-EN"
+		(at 36.83 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd2e9152-cf10-4cd8-bc0f-d0cb20a454f8")
+	)
+	(hierarchical_label "V_CTRL"
 		(shape output)
-		(at 45.72 35.56 0)
+		(at 68.58 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ae39caf9-be6b-44b8-b52f-747fb6b674da")
+		(uuid "952d8689-af2f-4e06-9250-42a78f8fb336")
 	)
-	(hierarchical_label "-12V_RAIL"
+	(hierarchical_label "I2C_SCL"
 		(shape output)
-		(at 45.72 30.48 0)
+		(at 39.37 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "ef6a0bc1-4bd3-409f-b5b5-1afd20b8efc9")
+		(uuid "9a9cc820-71a9-4243-b463-5e42689cc193")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape output)
+		(at 39.37 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4d59d3b-62fa-4ef2-9674-067724768007")
 	)
 	(symbol
 		(lib_id "Xiao_Seed:XIAO-ESP32-C3-SMD")
-		(at 129.54 44.45 0)
+		(at 66.04 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49268,7 +49838,7 @@
 		(dnp no)
 		(uuid "0cae7a88-92f1-47b0-a151-9f13f226c1b9")
 		(property "Reference" "U1"
-			(at 137.16 67.818 0)
+			(at 73.66 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49279,7 +49849,7 @@
 			)
 		)
 		(property "Value" "XIAO-ESP32-C3-SMD"
-			(at 137.16 70.104 0)
+			(at 73.66 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49290,7 +49860,7 @@
 			)
 		)
 		(property "Footprint" "Xiao_seed:XIAO-ESP32-C3-SMD"
-			(at 90.932 68.834 0)
+			(at 27.432 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49301,7 +49871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 39.37 0)
+			(at 57.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49312,7 +49882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 44.45 0)
+			(at 66.04 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49399,7 +49969,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 60.96 45.72 0)
+		(at 104.14 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49408,9 +49978,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16ce4e4b-47d7-4279-a3de-65c06770cc54")
-		(property "Reference" "#PWR011"
-			(at 60.96 52.07 0)
+		(uuid "0f3eed6a-128b-4f3e-a994-a83fe3d739b8")
+		(property "Reference" "#PWR018"
+			(at 104.14 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49421,7 +49991,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 60.96 49.53 0)
+			(at 104.14 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49431,7 +50001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 45.72 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49442,7 +50012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 45.72 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49453,7 +50023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 60.96 45.72 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49464,20 +50034,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8daf2996-2754-45d7-b4b7-cf1b11438b80")
+			(uuid "977abdb7-6458-40ee-b484-ca6196bdb885")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 130.81 24.13 180)
+		(lib_id "Switch:SW_Push")
+		(at 229.87 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49486,30 +50056,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2538f01c-c4f2-4485-9947-9168c07c690f")
-		(property "Reference" "#PWR05"
-			(at 130.81 17.78 0)
-			(hide yes)
+		(uuid "11823d18-a865-421b-8c27-6dc0123f85c5")
+		(property "Reference" "SW2"
+			(at 231.14 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 130.81 19.05 0)
+		(property "Value" "SW_Push"
+			(at 231.14 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 24.13 0)
+			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49520,7 +50091,250 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 24.13 0)
+			(at 224.79 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 229.87 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1b1cded-ad30-48a3-806b-779a670c8714")
+		)
+		(pin "1"
+			(uuid "547a4e03-8a25-4858-a5a2-f8d689db6c3a")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 229.87 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f08bb6-881b-40a7-8031-44cc2eee8f2b")
+		(property "Reference" "SW1"
+			(at 231.14 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 231.14 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 229.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d237392-2ae2-4b6e-b60c-0f488d2a7fda")
+		)
+		(pin "1"
+			(uuid "5be1eb02-ab2a-413e-8eb0-f1200d179b1d")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ee963f4-21f3-4d77-99ba-2e3be65e99dc")
+		(property "Reference" "R3"
+			(at 100.33 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 100.33 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f4b02a0-4990-4bde-9cc8-0a196a02a6a3")
+		)
+		(pin "2"
+			(uuid "e898d25e-3276-44c9-a529-e05fe7f289ee")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 67.31 29.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2538f01c-c4f2-4485-9947-9168c07c690f")
+		(property "Reference" "#PWR05"
+			(at 67.31 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 67.31 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49531,7 +50345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 130.81 24.13 0)
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49554,8 +50368,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:ISO1540")
-		(at 232.41 50.8 0)
+		(lib_id "Device:LED")
+		(at 167.64 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49564,128 +50378,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32e0edea-bdc6-4f53-ac79-4453d2537457")
-		(property "Reference" "U2"
-			(at 232.41 40.64 0)
+		(uuid "290e332c-cbdf-4872-bf8f-c0df80733304")
+		(property "Reference" "D3"
+			(at 171.45 118.4274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "ISO1540"
-			(at 232.41 43.18 0)
+		(property "Value" "LED"
+			(at 171.45 120.9674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 232.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso1541.pdf"
-			(at 232.41 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8"
-			(at 232.41 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "82a61818-33bf-4bab-ac19-f5eda038d9af")
-		)
-		(pin "2"
-			(uuid "93ff10e6-e7b6-4c40-9d61-053a9f6e6def")
-		)
-		(pin "1"
-			(uuid "582fd74e-0dda-4fbf-baf1-3f330692db1e")
-		)
-		(pin "5"
-			(uuid "a33d3885-d517-4a62-85eb-9f76b9578c11")
-		)
-		(pin "4"
-			(uuid "32fb08c1-f45c-44c3-a416-060f5ef7867a")
-		)
-		(pin "8"
-			(uuid "5502d609-1762-4452-a1eb-807ddb8b5c83")
-		)
-		(pin "3"
-			(uuid "069ccad6-ca07-4fe7-8fc6-9ba5d33ac514")
-		)
-		(pin "6"
-			(uuid "d12f2869-d804-4153-9eba-c5d035c87667")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 130.81 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45817e5b-3d87-4c54-b4e7-b6412bb22493")
-		(property "Reference" "#PWR06"
-			(at 130.81 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 130.81 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 68.58 0)
+			(at 167.64 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49696,7 +50413,422 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 68.58 0)
+			(at 167.64 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "441b49d2-8215-4b48-8160-d73ae5203644")
+		)
+		(pin "2"
+			(uuid "e0edbf63-6d7f-488a-a99b-eea31c084057")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c3431b6-1e37-4e29-8169-b6987872b478")
+		(property "Reference" "R11"
+			(at 159.004 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 159.258 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.258 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff74a535-4cd1-4565-8fc7-8e98ecfc27c2")
+		)
+		(pin "2"
+			(uuid "55f591e7-cd16-4129-8db6-b7c475f12131")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30455b48-d926-40be-a7f6-73274b3b93b7")
+		(property "Reference" "C5"
+			(at 248.92 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 248.92 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.0752 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff008107-8d01-4677-b3e6-a5aa91b69e54")
+		)
+		(pin "1"
+			(uuid "b7550439-b64a-4c24-899a-bc4dae9750bc")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 114.3 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c6338f-687c-425d-a14d-8e1f3dbed3bd")
+		(property "Reference" "#PWR09"
+			(at 114.3 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 114.3 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 114.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cc0f76d-65dc-420a-b347-64d90edc4954")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45572a9b-c398-40a0-997b-bf81b6b6a5bb")
+		(property "Reference" "R6"
+			(at 170.18 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 170.18 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.418 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce5e51d3-adf7-478a-9005-5c90ee7247cc")
+		)
+		(pin "2"
+			(uuid "fdede93b-5460-432a-aef8-46b6c9112e8e")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 67.31 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45817e5b-3d87-4c54-b4e7-b6412bb22493")
+		(property "Reference" "#PWR06"
+			(at 67.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 67.31 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49707,7 +50839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 130.81 68.58 0)
+			(at 67.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49730,8 +50862,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 154.94 44.45 270)
+		(lib_id "power:GNDD")
+		(at 114.3 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49740,9 +50872,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "763de4d9-133d-4f6f-9dc5-31888055db88")
-		(property "Reference" "#PWR04"
-			(at 151.13 44.45 0)
+		(uuid "4f99f804-c52d-4a31-b40d-9f54e358d25a")
+		(property "Reference" "#PWR012"
+			(at 114.3 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49752,19 +50884,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 158.75 44.4499 90)
+		(property "Value" "GNDD"
+			(at 114.3 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 44.45 0)
+			(at 114.3 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49775,7 +50906,825 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 44.45 0)
+			(at 114.3 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 114.3 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb622d42-56a7-4f69-9c75-1ca68bb7349b")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52d1edbd-22fd-473c-ac8e-e8cbd7b74bb3")
+		(property "Reference" "R1"
+			(at 44.45 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 44.45 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 131.318 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fa4254d-3f07-4d71-81bf-83ccef6521b3")
+		)
+		(pin "2"
+			(uuid "eb099a56-ae57-4fc6-936c-0e01db183972")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 179.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "577ef126-fc72-41b7-ad7a-01e3970492fc")
+		(property "Reference" "R16"
+			(at 52.324 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 52.578 180.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.578 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8ae7189-00ae-4ff5-8d82-d687835b2994")
+		)
+		(pin "2"
+			(uuid "ed4d3045-f55b-4586-b26b-be00f91ce7d6")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 165.1 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58daf500-ba9f-4b8a-983f-69e12f91d6ae")
+		(property "Reference" "Q6"
+			(at 171.45 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 171.45 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 170.18 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 170.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 165.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "429fbd22-5943-4165-9d49-3e5ac84568de")
+		)
+		(pin "1"
+			(uuid "7fd43629-6d27-4809-bda1-063e7b437740")
+		)
+		(pin "2"
+			(uuid "e28ad803-d73d-42b7-8713-55bd50b23ec0")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "626cec51-2450-4abd-9b38-a0a210900745")
+		(property "Reference" "R9"
+			(at 52.324 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 52.578 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.578 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53199770-812a-4ec9-acfd-5e359e5ca367")
+		)
+		(pin "2"
+			(uuid "8b5e19a0-3a9c-4a8d-a3b8-48cec388bd3c")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 114.3 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65ec25aa-0e0a-4b2e-a571-9b1e360b5e83")
+		(property "Reference" "D2"
+			(at 118.11 118.4274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 118.11 120.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf915700-62a6-4fe1-af92-92cb743091e9")
+		)
+		(pin "2"
+			(uuid "55b6b525-4fbd-4e17-b7cf-a359228a6746")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66c14eb5-09a3-47fa-b7b8-0934d805f385")
+		(property "Reference" "R15"
+			(at 44.45 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 44.45 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 177.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "139fdaa0-89b3-4f2d-a49f-5c7be1eab6e1")
+		)
+		(pin "2"
+			(uuid "8bc270a2-3002-4c25-a816-501aab0efeee")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 50.8 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69fa34e3-b66f-499d-912f-dc6c200ec03e")
+		(property "Reference" "#PWR022"
+			(at 50.8 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 50.8 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 50.8 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f584d07-be4e-4c7d-bc05-6e4af96fc516")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3a66cd-ee9e-4228-b893-c6e81e81a774")
+		(property "Reference" "R5"
+			(at 153.67 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 153.67 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b97574-b4f2-4c24-b072-31facd8e7d24")
+		)
+		(pin "2"
+			(uuid "75903da2-33f5-4bef-9c0d-12993f623e14")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 59.69 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e77f6e7-eced-4e58-9f1c-ab5fc4ae625b")
+		(property "Reference" "#PWR010"
+			(at 59.69 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 59.69 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f91c8b09-17d4-4604-811f-53d0d3b6a9a9")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 91.44 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "763de4d9-133d-4f6f-9dc5-31888055db88")
+		(property "Reference" "#PWR04"
+			(at 87.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 95.25 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49786,7 +51735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 154.94 44.45 0)
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49809,8 +51758,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 60.96 33.02 0)
+		(lib_id "Transistor_FET:2N7002")
+		(at 57.15 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49819,20 +51768,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99061b68-9c9c-4bdd-9c1c-512fecb0cd91")
-		(property "Reference" "#PWR07"
-			(at 60.96 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 63.5 34.2899 0)
+		(uuid "86aa3fd1-4eb7-4919-9ee9-4928af5edfef")
+		(property "Reference" "Q8"
+			(at 63.5 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49842,8 +51780,106 @@
 				(justify left)
 			)
 		)
+		(property "Value" "2N7002"
+			(at 63.5 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 62.23 177.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 62.23 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 57.15 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a93349ae-5ca2-4091-a878-1537454dd5a3")
+		)
+		(pin "1"
+			(uuid "75746493-6522-472a-8bea-b29aeec8bd81")
+		)
+		(pin "2"
+			(uuid "4b821967-71e0-4aeb-a2c7-b773cc60d3dd")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 59.69 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f931ce2-d720-4479-994d-37666107c9b6")
+		(property "Reference" "#PWR08"
+			(at 59.69 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 59.69 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 60.96 33.02 0)
+			(at 59.69 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49854,7 +51890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 33.02 0)
+			(at 59.69 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49864,8 +51900,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 60.96 33.02 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 59.69 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49876,20 +51912,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e446f3a-0704-4c3e-b2d8-3399f5372241")
+			(uuid "863d9075-817e-45e4-9da8-0a3afd398a93")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 198.12 41.91 0)
+		(lib_id "power:GNDD")
+		(at 229.87 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49898,31 +51934,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a7044aa-f1fc-4ece-ba83-9c8c25568e6e")
-		(property "Reference" "R2"
-			(at 200.66 40.6399 0)
+		(uuid "9027fe38-390a-4259-af58-55d5e88a59ec")
+		(property "Reference" "#PWR026"
+			(at 229.87 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 200.66 43.1799 0)
+		(property "Value" "GNDD"
+			(at 229.87 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 196.342 41.91 90)
+			(at 229.87 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49933,7 +51968,249 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 41.91 0)
+			(at 229.87 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 229.87 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78792bee-8948-44a2-9a4a-28a22262d782")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 111.76 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a381e2f5-f5e3-4cfe-8b0f-5ed0b196d56d")
+		(property "Reference" "Q5"
+			(at 118.11 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 118.11 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.84 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 111.76 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "70e02f92-f527-4b5e-958b-6750486d0a90")
+		)
+		(pin "1"
+			(uuid "a5f13999-a15e-4228-8e0f-a7d13af49c1a")
+		)
+		(pin "2"
+			(uuid "f9f1f55e-09c5-4a40-ac7e-589cb08eb602")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 167.64 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68fb6b1-8749-4813-aff8-91312ff58fea")
+		(property "Reference" "#PWR013"
+			(at 167.64 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 167.64 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 167.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa1363dd-b1c4-4d6f-9d32-3a439347b01b")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abfe3a61-a480-4830-bee7-4bbcf4a62d44")
+		(property "Reference" "R8"
+			(at 223.52 103.124 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 223.52 107.696 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49944,7 +52221,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 41.91 0)
+			(at 223.52 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49955,23 +52232,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "cec240cc-1e51-42d8-a1ff-f5d4a516d3c6")
+			(uuid "2da1f152-b6e8-4418-80ab-c2ef6eed4585")
 		)
 		(pin "2"
-			(uuid "72ede41b-e8c8-418f-8e51-01f0c6f4514e")
+			(uuid "ec3adeb7-012a-49f7-a0ea-71d87da70c72")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 205.74 41.91 0)
+		(lib_id "power:GNDD")
+		(at 167.64 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49980,31 +52257,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9aa3654e-3803-4ed7-9f38-2a9ec57df2b8")
-		(property "Reference" "R13"
-			(at 208.28 40.6399 0)
+		(uuid "ac01f8ca-c10a-481e-a47c-f73a40726058")
+		(property "Reference" "#PWR014"
+			(at 167.64 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 208.28 43.1799 0)
+		(property "Value" "GNDD"
+			(at 167.64 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 203.962 41.91 90)
+			(at 167.64 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50015,7 +52291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 41.91 0)
+			(at 167.64 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50025,8 +52301,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 205.74 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 167.64 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50037,23 +52313,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "393aedb5-f3fc-4edd-a90a-e6828d0d20ad")
-		)
-		(pin "2"
-			(uuid "c0ae7aee-451e-4c7e-9273-549db3c4dbcd")
+			(uuid "2863df56-9c1e-488e-914e-4202406966ca")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "R13")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 43.18 0)
+		(lib_id "power:+5VD")
+		(at 91.44 41.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50062,9 +52335,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a744539d-1b9f-4a69-b457-83a7cb4b1bf7")
-		(property "Reference" "#PWR01"
-			(at 72.39 46.99 0)
+		(uuid "ae380143-7462-4c49-9e32-c45478840bdc")
+		(property "Reference" "#PWR020"
+			(at 87.63 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50074,18 +52347,19 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 72.39 38.1 0)
+		(property "Value" "+5VD"
+			(at 95.25 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 43.18 0)
+			(at 91.44 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50096,7 +52370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 43.18 0)
+			(at 91.44 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50106,8 +52380,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 43.18 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 91.44 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50118,20 +52392,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c6e832d-d086-4a01-b7da-3ee44e97365c")
+			(uuid "e399d4fc-b1ea-4632-a43f-f89e5edd7731")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR01")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 154.94 36.83 270)
+		(lib_id "power:+5VD")
+		(at 59.69 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50140,9 +52414,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5b6e1ca-4700-4dfb-97ee-f70d606f8de9")
+		(uuid "b86b0d5c-276c-4ed6-8bd0-356c3f349280")
 		(property "Reference" "#PWR02"
-			(at 151.13 36.83 0)
+			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50152,19 +52426,18 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 158.75 36.8299 90)
+		(property "Value" "+5VD"
+			(at 59.69 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 36.83 0)
+			(at 59.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50175,7 +52448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 36.83 0)
+			(at 59.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50185,8 +52458,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 59.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50197,7 +52470,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1b4ba87-66b7-42f3-a481-11d4af705dc8")
+			(uuid "953c10f8-f95d-4906-8562-97b8724850be")
 		)
 		(instances
 			(project "ECG-EOG-board"
@@ -50210,7 +52483,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 160.02 40.64 90)
+		(at 96.52 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50221,7 +52494,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb1d2d9a-47b2-4815-9add-3d7c4b826670")
 		(property "Reference" "#PWR03"
-			(at 166.37 40.64 0)
+			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50232,7 +52505,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 163.83 40.6399 90)
+			(at 100.33 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50243,7 +52516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 40.64 0)
+			(at 96.52 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50254,7 +52527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 40.64 0)
+			(at 96.52 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50265,7 +52538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 160.02 40.64 0)
+			(at 96.52 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50288,8 +52561,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 36.83 0)
+		(lib_id "Device:R")
+		(at 104.14 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50297,31 +52570,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf99d031-0cd7-498f-89c7-64214b878032")
-		(property "Reference" "#PWR021"
-			(at 194.31 40.64 0)
-			(hide yes)
+		(uuid "c7fc4e3c-c351-4fcd-8c17-69a85ccb28d0")
+		(property "Reference" "R10"
+			(at 105.664 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+5V"
-			(at 194.31 31.75 0)
+		(property "Value" "100k"
+			(at 105.918 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 36.83 0)
+			(at 105.918 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50332,7 +52605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 36.83 0)
+			(at 104.14 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50342,8 +52615,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 36.83 0)
+		(property "Description" "Resistor"
+			(at 104.14 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50354,20 +52627,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "452aaac3-b64e-4c26-aece-e8052543f465")
+			(uuid "885d2c2b-fa69-43cb-8ed9-4138666cdd5e")
+		)
+		(pin "2"
+			(uuid "16a830db-f8e9-4284-94c7-3fcea3f5b458")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "#PWR021")
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PSU_12V:RS3K-0512D_H3")
-		(at 45.72 45.72 180)
+		(lib_id "Diode:1N4148W")
+		(at 59.69 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50376,53 +52652,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c99f9df9-08cc-499f-b66a-08055e1ec568")
-		(property "Reference" "PS1"
-			(at 33.02 22.86 0)
+		(uuid "cbcd8218-471e-4826-85dc-4a7b945d03ad")
+		(property "Reference" "D4"
+			(at 62.23 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "RS3K-0512D_H3"
-			(at 33.02 25.4 0)
+		(property "Value" "1N4148W"
+			(at 62.23 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RS3K0512DH3"
-			(at 24.13 -49.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://recom-power.com/pdf/Econoline/RS3K(-Z).pdf"
-			(at 24.13 -149.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Isolated Module DC DC Converter 2 Output 12V -12V 125mA, 125mA 4.5V - 9V Input"
-			(at 45.72 45.72 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 64.135 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50432,8 +52686,8 @@
 				)
 			)
 		)
-		(property "Height" "11.6"
-			(at 24.13 -349.2 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 59.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50441,11 +52695,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 24.13 -449.2 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 59.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50453,11 +52706,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 24.13 -549.2 0)
+		(property "Sim.Device" "D"
+			(at 59.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50465,11 +52717,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "RECOM Power"
-			(at 24.13 -649.2 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50477,153 +52728,837 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Manufacturer_Part_Number" "RS3K-0512D/H3"
-			(at 24.13 -749.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5"
-			(uuid "98f8e774-d395-4ae2-9dd2-31e6c8434a13")
-		)
-		(pin "7"
-			(uuid "5ce79914-fd31-4d9b-8327-8a43ba5684ef")
-		)
-		(pin "2"
-			(uuid "cecdbe3b-3966-4a50-914f-dd99077bd539")
-		)
-		(pin "3"
-			(uuid "b3ec31c2-ded1-4a32-9f54-4a4dec3ea80c")
 		)
 		(pin "1"
-			(uuid "19fe9171-1b69-425a-8c17-00a617cef40f")
+			(uuid "8f9d1476-4b37-4f35-85ef-f29d93dedd92")
 		)
-		(pin "6"
-			(uuid "aad1761e-487a-4ca9-8bec-e08f133d8f16")
-		)
-		(pin "8"
-			(uuid "db465fb7-503b-41e6-b254-94d2b8608a59")
+		(pin "2"
+			(uuid "f776b138-7227-4c29-9786-8eb92cf44776")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(reference "PS1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 24.13 160.02)
-		(size 61.214 25.654)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 110.49 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "a1a94b09-de52-484e-aded-1dd5f0b04c1b")
-		(property "Sheetname" "Buttons&LEDS"
-			(at 24.13 159.3084 0)
+		(uuid "d282abee-adcd-4b3f-9491-6b04ab675424")
+		(property "Reference" "C4"
+			(at 248.92 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Sheetfile" "Buttons&LEDS.kicad_sch"
-			(at 24.13 186.2586 0)
+		(property "Value" "100n"
+			(at 248.92 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
-		(pin "DCDC_EN" input
-			(at 41.91 160.02 90)
-			(uuid "62f12e95-432c-496e-94ea-1b31749141d6")
+		(property "Footprint" ""
+			(at 246.0752 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(pin "I2C_STATUS" input
-			(at 46.99 160.02 90)
-			(uuid "6e0080de-3c45-46d0-a557-925e310da81c")
+		(property "Datasheet" ""
+			(at 245.11 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(pin "TOGGLE_DC-DC" input
-			(at 52.07 160.02 90)
-			(uuid "fcc7e171-c80f-43bd-bcab-7ae62b78cc86")
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(pin "TOGGLE_TYPE" input
-			(at 57.15 160.02 90)
-			(uuid "af6f1b5f-f6ea-41a8-aad2-4d9ba15ff088")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
+		(pin "2"
+			(uuid "3fecc08d-8bc0-42c8-a7d8-1f15c48ba82c")
 		)
-		(pin "V_CTRL" output
-			(at 62.23 160.02 90)
-			(uuid "2c014740-2954-4945-a31b-c46e18306c57")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WEB_STATUS" input
-			(at 67.31 160.02 90)
-			(uuid "fc3614d9-a9e4-426e-94f1-f6e4b8e75d2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
+		(pin "1"
+			(uuid "cfd5db58-8792-4996-96f6-7fac09f0ee7a")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
-					(page "3")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d95ad4b3-7cb6-499e-8380-ccce4a6e39de")
+		(property "Reference" "R12"
+			(at 223.52 129.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 223.52 134.366 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 133.858 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fd489a8-0369-4af0-a58c-1d100910e950")
+		)
+		(pin "2"
+			(uuid "fd0c268c-21b5-4dac-91e6-083cb3c285e7")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 229.87 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da2aef7b-7c4d-4d7d-aeb8-5e821ccb7eb9")
+		(property "Reference" "#PWR027"
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 229.87 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 229.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3c65666-5d88-43c8-bb45-33d22f5c7c48")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 57.15 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7b1809-675d-4e6f-84a4-dafcc5e977ec")
+		(property "Reference" "Q4"
+			(at 63.5 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 63.5 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 62.23 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 62.23 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c39caf83-ee6e-403a-bf5e-0a59afa69849")
+		)
+		(pin "1"
+			(uuid "65ddee81-525a-436a-8319-373ef28b22e4")
+		)
+		(pin "2"
+			(uuid "f2cb1a46-6d89-4c5c-babb-499f845664fb")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbdf5ef6-4d46-4844-8870-2a8f1f6516ca")
+		(property "Reference" "R17"
+			(at 62.23 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 62.23 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.468 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa913985-f004-4915-a851-eb7115ef1912")
+		)
+		(pin "2"
+			(uuid "e2fb0aaf-3bbf-4e3d-9d37-57e4b4849dc6")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eefc8302-70b7-45dd-8e77-7596748b3313")
+		(property "Reference" "R4"
+			(at 116.84 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 116.84 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.078 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b212b7d-ddc2-4ef2-b458-f36659d20937")
+		)
+		(pin "2"
+			(uuid "12686a74-90ba-4f95-ba64-5955f9a51b05")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 50.8 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f559c2c8-6fb9-4afe-bc10-53ee215439e5")
+		(property "Reference" "#PWR017"
+			(at 50.8 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 50.8 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f86f624-3ba5-4306-8cc6-90dfd1d5b638")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 59.69 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f59a1a4b-dd82-4bd9-a1df-6ccece783915")
+		(property "Reference" "D6"
+			(at 63.5 162.8774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 63.5 165.4174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60e9e5f2-9d92-414a-8e95-7fe331e34381")
+		)
+		(pin "2"
+			(uuid "452cd7b7-d31c-4218-a430-f5fcfabf9e02")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 157.48 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd964e29-8b8c-4904-8f29-853b0f53e7b0")
+		(property "Reference" "#PWR019"
+			(at 157.48 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 157.48 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 157.48 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdc35fb3-4c4c-4886-a02c-c9c09026e023")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 59.69 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff8cc60c-8ff3-4290-bee3-26b6a4fda18b")
+		(property "Reference" "#PWR024"
+			(at 59.69 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 59.69 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 59.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "030457d1-9a42-42c1-9e73-b73bca0f2ae0")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/00f0c479-a66b-4740-b327-b136bf98faa4"
+					(reference "#PWR024")
+					(unit 1)
 				)
 			)
 		)
