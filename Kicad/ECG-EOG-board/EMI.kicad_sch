@@ -1896,7 +1896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "045eb642-3fbe-4548-b668-12b62d42a02d")
-		(property "Reference" "C_diff"
+		(property "Reference" "C_diff1"
 			(at 146.05 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1960,7 +1960,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_diff")
+					(reference "C_diff1")
 					(unit 1)
 				)
 			)
@@ -1978,7 +1978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "056d1d00-1e0b-4273-abff-4664f39b8141")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 111.76 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2040,7 +2040,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "R10")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2058,7 +2058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "444c8528-fdcd-415d-880d-f18834c329a3")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 82.55 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2120,7 +2120,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ca815e8-84a3-4d0b-95fb-c366797b5d12")
-		(property "Reference" "C_cm3"
+		(property "Reference" "C_cm2"
 			(at 100.33 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2285,7 +2285,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_cm3")
+					(reference "C_cm2")
 					(unit 1)
 				)
 			)
@@ -2303,7 +2303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e9dfb8a-2da8-411d-aec9-f918ee73ebfa")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 67.31 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2367,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2385,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c05f2e2-236f-40b6-90a5-f69ee8ce1dd9")
-		(property "Reference" "C_cm2"
+		(property "Reference" "C_cm3"
 			(at 130.81 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2449,7 +2449,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_cm2")
+					(reference "C_cm3")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf466435-a02f-432c-814f-ee896c225aad")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2693,7 +2693,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0362ff8-36bf-4ace-a016-e76ecad75bf6")
-		(property "Reference" "R9"
+		(property "Reference" "R16"
 			(at 111.76 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +2773,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "R9")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1fad067-6eaf-44ae-b9ef-ce2e7b31db4b")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 67.31 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2855,7 +2855,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2955,7 +2955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa38bc19-5837-4eb9-9be7-66123351abe5")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 82.55 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,7 +3017,7 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)

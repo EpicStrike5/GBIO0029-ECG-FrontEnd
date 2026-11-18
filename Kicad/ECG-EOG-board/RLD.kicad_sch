@@ -481,7 +481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "125b340e-fa15-4e0f-a66f-f0ce11e17314")
-		(property "Reference" "R30"
+		(property "Reference" "R25"
 			(at 147.32 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -547,11 +547,11 @@
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/8d362e79-5197-43db-8173-4159292bf66c"
-					(reference "R32")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/f208b971-018a-4d93-ada1-1f904e197a33"
-					(reference "R30")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -569,7 +569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2d2d98-3104-40bb-a2dd-fe4ec4c03e61")
-		(property "Reference" "R33"
+		(property "Reference" "R26"
 			(at 172.72 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -633,15 +633,15 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/73d8d687-fd7a-41c0-812f-4a8a44c88908"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/8d362e79-5197-43db-8173-4159292bf66c"
-					(reference "R35")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/f208b971-018a-4d93-ada1-1f904e197a33"
-					(reference "R33")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -659,7 +659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b66b282-092e-4f3c-9de9-408ff5c29d0d")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 99.06 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -721,15 +721,15 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/73d8d687-fd7a-41c0-812f-4a8a44c88908"
-					(reference "R22")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/8d362e79-5197-43db-8173-4159292bf66c"
-					(reference "R23")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/f208b971-018a-4d93-ada1-1f904e197a33"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -747,7 +747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88efef09-0c0f-4d81-8d2f-e6bbb18547fa")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 146.05 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -809,15 +809,15 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/73d8d687-fd7a-41c0-812f-4a8a44c88908"
-					(reference "R27")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/8d362e79-5197-43db-8173-4159292bf66c"
-					(reference "R29")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/f208b971-018a-4d93-ada1-1f904e197a33"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -835,7 +835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c95fba0c-4e0a-47cd-b57a-9f12e69b7a42")
-		(property "Reference" "R14"
+		(property "Reference" "R21"
 			(at 73.66 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -897,15 +897,15 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/73d8d687-fd7a-41c0-812f-4a8a44c88908"
-					(reference "R19")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/8d362e79-5197-43db-8173-4159292bf66c"
-					(reference "R20")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/f208b971-018a-4d93-ada1-1f904e197a33"
-					(reference "R14")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -923,7 +923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd40db00-3058-4e42-a10c-cf20c68693f7")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 121.92 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -985,15 +985,15 @@
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/73d8d687-fd7a-41c0-812f-4a8a44c88908"
-					(reference "R26")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/8d362e79-5197-43db-8173-4159292bf66c"
-					(reference "R28")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/f208b971-018a-4d93-ada1-1f904e197a33"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
