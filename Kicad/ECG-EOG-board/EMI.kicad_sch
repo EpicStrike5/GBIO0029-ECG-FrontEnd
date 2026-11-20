@@ -810,62 +810,62 @@
 		)
 	)
 	(junction
-		(at 142.24 67.31)
+		(at 137.16 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f45e29f-2b26-4760-8dc6-911b788e91b5")
 	)
 	(junction
-		(at 127 95.25)
+		(at 121.92 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a710c8a-3251-4746-b191-68a6cae771fd")
 	)
 	(junction
-		(at 64.77 95.25)
+		(at 59.69 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ca219be-3b55-4a2a-a6c0-5c2b802caba7")
 	)
 	(junction
-		(at 64.77 67.31)
+		(at 59.69 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9db8bb7-c646-4f18-8309-313aefa70e84")
 	)
 	(junction
-		(at 64.77 81.28)
+		(at 59.69 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccae68a9-479d-4ee0-9482-4f511b95b37d")
 	)
 	(junction
-		(at 142.24 95.25)
+		(at 137.16 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee77a5c7-d0f7-450d-90cf-8f4345ae9cfb")
 	)
 	(junction
-		(at 96.52 95.25)
+		(at 91.44 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57888e3-11a9-4e1d-b83a-ed1409be0118")
 	)
 	(junction
-		(at 96.52 67.31)
+		(at 91.44 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbd6e0d4-69a5-4aef-b7ef-fc81a9523994")
 	)
 	(junction
-		(at 127 67.31)
+		(at 121.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcf1ed3c-e4a8-429c-95e1-cf0c284b6f45")
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 127 71.12)
+			(xy 121.92 106.68) (xy 121.92 110.49)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 142.24 67.31)
+			(xy 121.92 106.68) (xy 137.16 106.68)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 67.31) (xy 96.52 71.12)
+			(xy 91.44 106.68) (xy 91.44 110.49)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 80.01) (xy 64.77 81.28)
+			(xy 59.69 119.38) (xy 59.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -905,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 163.83 67.31)
+			(xy 137.16 106.68) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 127 95.25)
+			(xy 121.92 129.54) (xy 121.92 134.62)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 127 95.25)
+			(xy 110.49 134.62) (xy 121.92 134.62)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 64.77 67.31)
+			(xy 43.18 106.68) (xy 59.69 106.68)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 67.31) (xy 107.95 67.31)
+			(xy 91.44 106.68) (xy 102.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 67.31) (xy 64.77 72.39)
+			(xy 59.69 106.68) (xy 59.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 95.25) (xy 142.24 95.25)
+			(xy 121.92 134.62) (xy 137.16 134.62)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 91.44) (xy 64.77 95.25)
+			(xy 59.69 130.81) (xy 59.69 134.62)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 95.25) (xy 64.77 95.25)
+			(xy 43.18 134.62) (xy 59.69 134.62)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 127 67.31)
+			(xy 110.49 106.68) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 78.74) (xy 96.52 82.55)
+			(xy 91.44 118.11) (xy 91.44 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 107.95 95.25)
+			(xy 91.44 134.62) (xy 102.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 60.96) (xy 96.52 67.31)
+			(xy 91.44 100.33) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 142.24 95.25)
+			(xy 137.16 123.19) (xy 137.16 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1045,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 95.25) (xy 96.52 95.25)
+			(xy 81.28 134.62) (xy 91.44 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 96.52 67.31)
+			(xy 81.28 106.68) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 67.31) (xy 78.74 67.31)
+			(xy 59.69 106.68) (xy 73.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 96.52 104.14)
+			(xy 91.44 134.62) (xy 91.44 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 64.77 83.82)
+			(xy 59.69 120.65) (xy 59.69 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 90.17) (xy 96.52 95.25)
+			(xy 91.44 129.54) (xy 91.44 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 127 82.55)
+			(xy 121.92 118.11) (xy 121.92 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 95.25) (xy 162.56 95.25)
+			(xy 137.16 134.62) (xy 157.48 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1125,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 74.93 81.28)
+			(xy 59.69 120.65) (xy 69.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 95.25) (xy 78.74 95.25)
+			(xy 59.69 134.62) (xy 73.66 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 142.24 76.2)
+			(xy 137.16 106.68) (xy 137.16 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +1842,7 @@
 	)
 	(hierarchical_label "IN+"
 		(shape input)
-		(at 163.83 67.31 0)
+		(at 158.75 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 	)
 	(hierarchical_label "IN-"
 		(shape input)
-		(at 162.56 95.25 0)
+		(at 157.48 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,8 +1863,8 @@
 		(uuid "4c53b894-8ebe-4370-adee-dbe75d7f3b63")
 	)
 	(hierarchical_label "Right_arm"
-		(shape output)
-		(at 48.26 67.31 180)
+		(shape input)
+		(at 43.18 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1874,8 +1874,8 @@
 		(uuid "5e41aa2f-2e6b-4e22-90cf-4901b5bdeefa")
 	)
 	(hierarchical_label "Left_arm"
-		(shape output)
-		(at 48.26 95.25 180)
+		(shape input)
+		(at 43.18 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1886,7 +1886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 80.01 0)
+		(at 91.44 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1895,9 +1895,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "045eb642-3fbe-4548-b668-12b62d42a02d")
-		(property "Reference" "C_diff1"
-			(at 146.05 78.7399 0)
+		(uuid "009330df-3b44-46a8-9c2c-3eaf4fbb0759")
+		(property "Reference" "C21"
+			(at 95.25 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1908,7 +1908,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 146.05 81.2799 0)
+			(at 95.25 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1919,7 +1919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.2052 83.82 0)
+			(at 92.4052 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,7 +1930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 80.01 0)
+			(at 91.44 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 80.01 0)
+			(at 91.44 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1952,15 +1952,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b3961fbb-7f64-4630-83d3-ab528a0a9ca2")
+			(uuid "760067b4-9f85-4ff0-adf9-bf5f8f819659")
 		)
 		(pin "1"
-			(uuid "ae605f0a-ccbe-4d9c-be4a-13b1ba6c48ca")
+			(uuid "a392a0d7-2cc2-4717-a15d-f241cf7a3409")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_diff1")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 95.25 90)
+		(at 106.68 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1979,7 +1979,7 @@
 		(fields_autoplaced yes)
 		(uuid "056d1d00-1e0b-4273-abff-4664f39b8141")
 		(property "Reference" "R17"
-			(at 111.76 88.9 90)
+			(at 106.68 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 111.76 91.44 90)
+			(at 106.68 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1999,7 +1999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 97.028 90)
+			(at 106.68 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 95.25 0)
+			(at 106.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 95.25 0)
+			(at 106.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,8 +2047,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 95.25 90)
+		(lib_id "Device:C")
+		(at 137.16 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2057,29 +2057,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "444c8528-fdcd-415d-880d-f18834c329a3")
-		(property "Reference" "R15"
-			(at 82.55 88.9 90)
+		(uuid "0ec8f568-1f2b-4bae-8795-32be71567df4")
+		(property "Reference" "C25"
+			(at 140.97 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 82.55 91.44 90)
+		(property "Value" "C"
+			(at 140.97 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 97.028 90)
+			(at 138.1252 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,7 +2092,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 95.25 0)
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "098f2945-8f5d-448c-bbcc-df30c3dea5b1")
+		)
+		(pin "1"
+			(uuid "43045a77-62b7-4c0e-b011-273df444921e")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "444c8528-fdcd-415d-880d-f18834c329a3")
+		(property "Reference" "R15"
+			(at 77.47 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 77.47 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2101,7 +2183,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 95.25 0)
+			(at 77.47 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV99")
-		(at 96.52 55.88 0)
+		(at 91.44 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2139,7 +2221,7 @@
 		(fields_autoplaced yes)
 		(uuid "47093599-38c7-481d-86e1-a4b13128e4e6")
 		(property "Reference" "D7"
-			(at 96.52 49.53 0)
+			(at 91.44 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2149,7 +2231,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 96.52 52.07 0)
+			(at 91.44 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2159,7 +2241,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 96.52 68.58 0)
+			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,7 +2252,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 96.52 55.88 0)
+			(at 91.44 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2263,7 @@
 			)
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 96.52 55.88 0)
+			(at 91.44 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2211,7 +2293,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 86.36 0)
+		(at 121.92 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2220,9 +2302,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ca815e8-84a3-4d0b-95fb-c366797b5d12")
-		(property "Reference" "C_cm2"
-			(at 100.33 85.0899 0)
+		(uuid "6b6dbc44-be71-4f97-9b3d-773a1cb92063")
+		(property "Reference" "C23"
+			(at 125.73 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2233,7 +2315,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 100.33 87.6299 0)
+			(at 125.73 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2244,7 +2326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.4852 90.17 0)
+			(at 122.8852 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2255,7 +2337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 86.36 0)
+			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2266,7 +2348,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 86.36 0)
+			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2277,15 +2359,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "08b2b156-7c29-4571-969d-737b18bfa47b")
+			(uuid "029d0bee-b7ec-401b-b029-a4b85e219a4d")
 		)
 		(pin "1"
-			(uuid "618ecbb7-1ca2-4157-a377-2d70a1d4a9df")
+			(uuid "d2c022a9-1664-4936-aee7-b77313bb0970")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_cm2")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2293,7 +2375,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 64.77 87.63 90)
+		(at 59.69 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2304,7 +2386,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e9dfb8a-2da8-411d-aec9-f918ee73ebfa")
 		(property "Reference" "D6"
-			(at 67.31 86.3599 90)
+			(at 62.23 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2315,7 +2397,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 67.31 88.8999 90)
+			(at 62.23 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2326,7 +2408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 87.63 0)
+			(at 59.69 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2337,7 +2419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 87.63 0)
+			(at 59.69 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2348,7 +2430,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 64.77 87.63 0)
+			(at 59.69 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2374,90 +2456,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c05f2e2-236f-40b6-90a5-f69ee8ce1dd9")
-		(property "Reference" "C_cm3"
-			(at 130.81 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 130.81 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127.9652 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "abcd1e92-8c76-4145-ae0b-9de64cb1301b")
-		)
-		(pin "1"
-			(uuid "7f22ece6-3f84-4310-b399-eecf34da3d65")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_cm3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAV99")
-		(at 96.52 109.22 180)
+		(at 91.44 148.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2468,7 +2468,7 @@
 		(fields_autoplaced yes)
 		(uuid "83758995-8797-4d06-9270-e0e834b809d3")
 		(property "Reference" "D8"
-			(at 96.52 113.03 0)
+			(at 91.44 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 96.52 115.57 0)
+			(at 91.44 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2488,7 +2488,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 96.52 96.52 0)
+			(at 91.44 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 96.52 109.22 0)
+			(at 91.44 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2510,7 +2510,7 @@
 			)
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 96.52 109.22 0)
+			(at 91.44 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2540,7 +2540,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 86.36 0)
+		(at 121.92 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2549,9 +2549,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "857e5dd2-7201-4d6a-b738-61a54315be89")
-		(property "Reference" "C_cm4"
-			(at 130.81 85.0899 0)
+		(uuid "bcdcd84f-f658-487c-9662-5a1b936dedd0")
+		(property "Reference" "C24"
+			(at 125.73 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2562,7 +2562,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 130.81 87.6299 0)
+			(at 125.73 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2573,7 +2573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.9652 90.17 0)
+			(at 122.8852 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 86.36 0)
+			(at 121.92 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,7 +2595,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 86.36 0)
+			(at 121.92 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,15 +2606,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "dd6a9766-6acb-40f4-9a22-4f2cfe806d25")
+			(uuid "f2798020-7ab8-44c8-9a02-5c77610ef837")
 		)
 		(pin "1"
-			(uuid "2f962ada-3f92-4d76-804e-a3e06056505d")
+			(uuid "3fa4a38d-d642-481d-973a-26d0aa55abdb")
 		)
 		(instances
 			(project "ECG-EOG-board"
 				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_cm4")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2622,7 +2622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 81.28 90)
+		(at 69.85 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2633,7 +2633,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf466435-a02f-432c-814f-ee896c225aad")
 		(property "Reference" "#PWR020"
-			(at 81.28 81.28 0)
+			(at 76.2 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,7 +2644,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 81.2799 90)
+			(at 73.66 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2655,7 +2655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 81.28 0)
+			(at 69.85 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +2666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 81.28 0)
+			(at 69.85 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,7 +2677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 81.28 0)
+			(at 69.85 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2701,7 +2701,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 67.31 90)
+		(at 106.68 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2712,7 +2712,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0362ff8-36bf-4ace-a016-e76ecad75bf6")
 		(property "Reference" "R16"
-			(at 111.76 60.96 90)
+			(at 106.68 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2722,7 +2722,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 111.76 63.5 90)
+			(at 106.68 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2732,7 +2732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 69.088 90)
+			(at 106.68 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,7 +2743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 67.31 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,7 +2754,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 67.31 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2780,8 +2780,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 64.77 76.2 90)
+		(lib_id "Device:C")
+		(at 91.44 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2790,31 +2790,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1fad067-6eaf-44ae-b9ef-ce2e7b31db4b")
-		(property "Reference" "D5"
-			(at 67.31 74.9299 90)
+		(uuid "cfff1b4c-243a-42e3-b43a-dfca41710806")
+		(property "Reference" "C4"
+			(at 95.25 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D_TVS"
-			(at 67.31 77.4699 90)
+		(property "Value" "C"
+			(at 95.25 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 76.2 0)
+			(at 92.4052 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2825,7 +2825,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 76.2 0)
+			(at 91.44 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01b523cf-2d1e-4877-b33b-fc3f2b9be674")
+		)
+		(pin "1"
+			(uuid "13aa48aa-06b6-48e9-9b87-8b13f5d7b560")
+		)
+		(instances
+			(project "ECG-EOG-board"
+				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 59.69 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1fad067-6eaf-44ae-b9ef-ce2e7b31db4b")
+		(property "Reference" "D5"
+			(at 62.23 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 62.23 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2836,7 +2918,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 64.77 76.2 0)
+			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2862,90 +2944,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 96.52 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2c0a39a-ed8e-46a3-bd2c-8ceebb9cb141")
-		(property "Reference" "C_cm1"
-			(at 100.33 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 100.33 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.4852 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9343bea6-a763-4c0c-bff1-58d89b167e40")
-		)
-		(pin "1"
-			(uuid "b9e8849f-3059-470e-951d-b55c6f9799d0")
-		)
-		(instances
-			(project "ECG-EOG-board"
-				(path "/a82bd10b-39cf-4e13-890e-43f54d6bb97d/e3b9655a-1590-4f87-98f8-2ddb5afd956b"
-					(reference "C_cm1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 82.55 67.31 90)
+		(at 77.47 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2956,7 +2956,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa38bc19-5837-4eb9-9be7-66123351abe5")
 		(property "Reference" "R14"
-			(at 82.55 60.96 90)
+			(at 77.47 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2966,7 +2966,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 82.55 63.5 90)
+			(at 77.47 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2976,7 +2976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 69.088 90)
+			(at 77.47 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2987,7 +2987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 67.31 0)
+			(at 77.47 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,7 +2998,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 67.31 0)
+			(at 77.47 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
